@@ -22,5 +22,7 @@ WebUI.navigateToUrl('https://www.google.com/')
 
 WebUI.setText(findTestObject('Object Repository/google_test/Page_Google/input_Sign in_q'), 'jag')
 
+WebUI.delay(10)
+
 WebUI.closeBrowser()
 
